@@ -1,17 +1,22 @@
-.inline-block {
-display: inline-block;
-vertical-align: top;
+*{
+    text-decoration: none;
 }
-.logo {
-   width: 23%;
-   padding: 1%; 
+.navbar{
+ padding-right: 15px; padding-left: 15px;
 }
-
-nav {
-    width: 73%;
-    padding: 1%;
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
 }
-ul {
-width: 50%;
-margin-left: auto;
+.logo img{
+    display: relative;
+    width: 150px;
+    float:left;
+    margin-top:16px;
+    cursor: pointer;
+}
+li{
+    list-style: none; display: inline-block; padding-inline: 25px;
+}
+li a{
+    color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
 }
