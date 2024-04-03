@@ -2,7 +2,7 @@
     text-decoration: none;
 }
 .navbar{
- padding-right: 15px; padding-left: 15px;
+ padding-right: 15px; padding-left: 15px; background-color: #E1E1DB;
 }
 .navdiv{
     display: flex; align-items: center; justify-content: space-between;
@@ -19,4 +19,22 @@ li{
 }
 li a{
     color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+
+.square {
+    height: 500px;
+    width: 100%;
+    background-color: #E1E1DB;
+    align-items: left;
+  }
+
+.profile-image {
+    height: 100px;
+    width: 100px; 
+}
+
+.profile-image img{
+    height: 800px;
+    width: 800px;
+    align-items: top;
 }
