@@ -2,10 +2,10 @@
     text-decoration: none;
 }
 .navbar{
- padding-right: 15px; padding-left: 15px; background-color: #E1E1DB;
+    padding-right: 15px; padding-left: 15px; background-color: #E1E1DB;
 }
 .navdiv{
-    display: flex; align-items: center; justify-content: space-between;
+    display: flex; align-items: center; justify-content: space-between; background-color: #E1E1DB;
 }
 .logo img{
     display: relative;
@@ -21,20 +21,36 @@ li a{
     color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
 }
 
+.container {
+    display: flex;
+}
 .square {
-    height: 500px;
+    display: flex;
+    height: 300px;
     width: 100%;
     background-color: #E1E1DB;
-    align-items: left;
+    top: 0;
   }
 
-.profile-image {
-    height: 100px;
-    width: 100px; 
+.small-square {
+    background-color: black;
 }
 
 .profile-image img{
-    height: 800px;
-    width: 800px;
-    align-items: top;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1100px;
+    width: 1100px;
+    position: absolute;
+    left: -100px;
+    bottom: -270px;
+}
+
+.top-line {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    flex-wrap: wrap;
+
 }
