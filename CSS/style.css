@@ -1,29 +1,43 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+   }
 *{
     text-decoration: none;
 }
 .navbar{
-    padding-right: 15px; padding-left: 15px; background-color: #E1E1DB;
+    padding-right: 15px; 
+    padding-left: 15px; 
+    background-color: #E1E1DB;
 }
 .navdiv{
-    display: flex; align-items: center; justify-content: space-between; background-color: #E1E1DB;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #E1E1DB;
 }
 .logo img{
     display: relative;
     width: 150px;
     float:left;
-    margin-top:16px;
+   /* margin: top 16px; */
     cursor: pointer;
 }
 li{
-    list-style: none; display: inline-block; padding-inline: 25px;
+    list-style: none; 
+    display: inline-block; 
+    padding-inline: 25px;
 }
 li a{
-    color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
+    color: black; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
 }
 
 .hero-container {
     position: relative;
-
+   
 }
 .backgroundsquare {
     display: flex;
@@ -31,19 +45,20 @@ li a{
     width: 100%;
     background-color: #E1E1DB;
     top: 0;
-  
   }
 
 .heroimage {
     display: flex;
-    height: 1100px;
-    width: 1100px;
-    top: -200px;
+    height: 1200px;
+    width: 1200px;
+    top: -225px;
     left: -150px;
     position: absolute;
-
+    margin: 0;
 }
-  .tinysquare {
+
+
+.tinysquare {
     display: flex;
     height: 450px;
     width: 450px;
@@ -51,10 +66,20 @@ li a{
     flex-wrap: wrap;
     background-color: #D1D1CB;
     top: 83px;
-    right: 140px;
+    right: 110px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content:space-around;
   }
 
+#heroparagraph {
+    margin-top:-5px;
+    line-height: 2;
 
+}
 .top-line {
     display: flex;
     position: absolute;
@@ -62,27 +87,118 @@ li a{
     top: 70px;
     flex-wrap: wrap;
     background-color: black;
+}
+
+.skills-container {
+    Position: relative; 
+}
+.backgroundsquare2 {
+    display:flex;
+    height: 850px;
+    width: 100%;
+    position: absolute;
+    background-color: #E1E1DB;
+    top: 420px;
+}
+
+.skills-line {
+    display: flex;
+    position: absolute;
+    top: 130px;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.skills-title-box {
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    left: 0px;
+    top: 115px;
+    justify-content: center;
+    text-align: center;
+
+   
+}
+
+.skill-title {
+    position: relative;
+    justify-content: center;
+    top: -7px;
+    color: white;
+}
+
+.whitesquare {
+    display:flex;
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    right: 0px;
+    top: 60px;
+    background-color: white;
 
 }
 
-.backgroundsquare2 {
+.skills-paragraph {
     display: flex;
-    height: 800px;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 800px;
+    top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.skills-paragraph2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 800px;
+    padding-right: 200px;
+    top: 40px;
+    margin-bottom: 50px;
+
+}
+
+p {
+    line-height: 25px;
+}
+
+.backgroundsquare3 {
+    display:flex;
+    height: 850px;
     width: 100%;
     position: absolute;
-    flex-wrap: wrap;
-    background-color: #E1E1DB;
-    top: 800px;
-    padding-left: 0;
-  }
-  
-  .backgroundsquare3 {
-    display: flex;
-    height: 800px;
-    width: 100%;
-    position: absolute;
-    flex-wrap: wrap;
     background-color: #ffffff;
-    top: 1600px;
-    padding-left: 0;
-  }
+    top: 1650px;
+}
+
+.works-line {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.works-title-box {
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    right: -2px;
+    top: 185px;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-title {
+    position: relative;
+    justify-content: center;
+    top: -7px;
+    color: white;
+}
