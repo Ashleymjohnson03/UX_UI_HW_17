@@ -47,6 +47,14 @@ li a{
     top: 0;
   }
 
+.backgroundsquarewhite {
+    display: flex;
+    height: 350;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+}
+
 .heroimage {
     display: flex;
     height: 1200px;
@@ -67,10 +75,7 @@ li a{
     background-color: #D1D1CB;
     top: 83px;
     right: 110px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding:20px;
     text-align: center;
     justify-content:space-around;
   }
@@ -118,8 +123,6 @@ li a{
     top: 115px;
     justify-content: center;
     text-align: center;
-
-   
 }
 
 .skill-title {
@@ -175,12 +178,13 @@ p {
     position: absolute;
     background-color: #ffffff;
     top: 1650px;
+    margin: 0px;
 }
 
 .works-line {
     display: flex;
     position: absolute;
-    top: 200px;
+    top: 145px;
     flex-wrap: wrap;
     background-color: black;
 }
@@ -191,7 +195,7 @@ p {
     height: 50px;
     width: 300px;
     right: -2px;
-    top: 185px;
+    top: 130px;
     justify-content: center;
     text-align: center;
 }
@@ -202,3 +206,94 @@ p {
     top: -7px;
     color: white;
 }
+
+.Wyomingcover img{
+    display: flex;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 155px;
+    left: 800px;
+    border: #000000 2px solid; 
+}
+
+.Actorsandotherscover img{
+    display: flex;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 155px;
+    right: 800px;
+    border: #000000 2px solid; 
+}
+
+.footerbar{
+    display: flex;
+    background-color: #E1E1DB;
+   
+}
+.footerdiv{
+    position: absolute;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #E1E1DB;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+
+}
+.footertitle {
+    display: relative;
+    width: 150px;
+    float:left;
+    cursor: pointer;
+    padding:25px;
+    margin: 0;
+}
+
+li{
+    list-style: none; 
+    display: inline-block; 
+    padding-inline: 25px;
+}
+li a{
+    color: black; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+
+.wyomingheader {
+    position: absolute;
+    inline-size: 500px;
+    top: 570px;
+    left: 755px;
+    text-align: center;
+
+
+}
+.actorsheader {
+    position: absolute;
+    inline-size: 500px;
+    text-align: center;
+    top: 570px;
+    right: 755px;
+    
+}
+.fa-facebook {
+    color: black;
+  }
+  
+  .fa-twitter {
+    color: black;
+  }
+  
+  .fa-google {
+    color: black;
+  }
+  
+  .fa-linkedin {
+    
+    color: black;
+  }
